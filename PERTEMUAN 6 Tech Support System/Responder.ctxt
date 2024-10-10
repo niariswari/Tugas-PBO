@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Responder
+comment1.params=
+comment1.target=Responder()
+comment2.params=input
+comment2.target=java.lang.String\ generateResponse(java.lang.String)
+comment3.params=
+comment3.target=void\ answers()
+comment4.params=
+comment4.target=void\ keywordlist()
+numComments=5
