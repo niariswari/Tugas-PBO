@@ -26,7 +26,7 @@ public class SupportSystem {
     }
 
     private void printWelcome() {
-        System.out.println("Welcome to the M Technical Support System.");
+        System.out.println("Welcome to the Mazaya's Technical Support System.");
         System.out.println();
         System.out.println("Please tell us about your problem.");
         System.out.println("We will assist you with any problem you might have.");
