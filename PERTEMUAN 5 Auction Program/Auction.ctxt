@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Auction
+comment1.params=
+comment1.target=Auction()
+comment2.params=item
+comment2.target=void\ addItem(Item)
+comment3.params=
+comment3.target=java.util.ArrayList\ getItems()
+comment4.params=
+comment4.target=void\ showItems()
+comment5.params=
+comment5.target=void\ showWinners()
+numComments=6

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Item
+comment1.params=name\ startingPrice
+comment1.target=Item(java.lang.String,\ double)
+comment10.params=
+comment10.target=void\ showWinner()
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=double\ getStartingPrice()
+comment4.params=
+comment4.target=double\ getHighestBid()
+comment5.params=
+comment5.target=java.lang.String\ getHighestBidder()
+comment6.params=
+comment6.target=boolean\ isAuctionOpen()
+comment7.params=
+comment7.target=void\ openAuction()
+comment8.params=
+comment8.target=void\ closeAuction()
+comment9.params=bidderName\ bidAmount
+comment9.target=void\ setBid(java.lang.String,\ double)
+numComments=12
