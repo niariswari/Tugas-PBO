@@ -28,7 +28,7 @@ public class Game {
     }
 
     public void play() {
-        printWelcome();
+        printWelcome();  // Menampilkan pesan sambutan
         boolean finished = false;
         while (!finished) {
             String command = Parser.getCommand();
@@ -39,7 +39,7 @@ public class Game {
 
     private boolean processCommand(String command) {
         if (command.equals("help")) {
-            printHelp();
+            printHelp();  // Menampilkan bantuan
         } else if (command.startsWith("go ")) {
             goRoom(command.substring(3));
         } else if (command.equals("quit")) {
@@ -58,5 +58,22 @@ public class Game {
             currentRoom = nextRoom;
             System.out.println(currentRoom.getLongDescription());
         }
+    }
+
+    private void printWelcome() {
+        System.out.println("Welcome to the World of Zuul!");
+        System.out.println("Type 'help' if you need help.");
+        System.out.println(currentRoom.getLongDescription());
+    }
+
+    private void printHelp() {
+        System.out.println("You are in a room. You can go to other rooms by typing 'go <direction>'.");
+        System.out.println("Valid directions are: north, south, east, west.");
+        System.out.println("Type 'quit' to end the game.");
+    }
+
+    public static void main(String[] args) {
+        Game game = new Game();
+        game.play();
     }
 }
