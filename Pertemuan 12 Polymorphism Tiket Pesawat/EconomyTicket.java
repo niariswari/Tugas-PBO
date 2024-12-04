@@ -5,7 +5,7 @@ public class EconomyTicket extends Ticket {
 
     @Override
     public double calculateFare() {
-        return getBaseFare() * 0.9; // 10% discount
+        return getBaseFare() * 0.9;
     }
 
     @Override
