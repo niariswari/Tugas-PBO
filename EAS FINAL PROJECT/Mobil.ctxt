@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Mobil
+comment1.params=
+comment1.target=void\ setBiayaPerJam()
+comment2.params=lamaParkir
+comment2.target=int\ hitungBiaya(int)
+numComments=3
